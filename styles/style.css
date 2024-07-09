@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Azeret Mono;
 }
 
 /* navigation bar style start */
@@ -329,13 +330,90 @@ main {
     text-align: left;
     opacity: 0.7;
 }
-#first-item{
+
+#first-item {
     background-color: rgba(255, 76, 30, 0.05);
 }
-#second-item{
+
+#second-item {
     background-color: rgba(0, 76, 232, 0.05);
 }
-#third-item{
+
+#third-item {
     background-color: rgba(255, 223, 0, 0.05);
 }
+
+.new-itmes {
+    display: flex;
+}
+
 /* skills styles end */
+
+/* new skills styles start */
+.target-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin: 100px 0px 24px 0;
+
+}
+
+.target-skill-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    line-height: 23px;
+}
+
+.main-target-skill-container {
+    margin-top: 48px;
+}
+
+.new-itmes {
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 23px;
+}
+.new-skill-img{
+    margin-right: 30px;
+}
+.new-skill-title{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.new-skill-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+/* new skills styles end */
+
+/* contect  form styles start  */
+.message-form{
+    width: 1440px;
+    height: 652px;  
+    background-image: url("/assets/handshake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    background-origin: ;
+}
+/* contect  form styles end */
