@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navigation bar style start */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: Azeret Mono;
+    margin: 50px 150px;
+}
+
+.logo {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    border: 1px solid;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 17px 24px;
+    background-color: #fff;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+/* navigation bar styles end */
+
+/* banner styles start */
+.banner-container {
+    background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 652px;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    left: 221px;
+    right: 221px;
+}
+
+.banner-content>img {
+    width: 218.03px;
+    height: 234.9px;
+    margin-top: 24px;
+}
+
+.banner-content>h3 {
+    /* width: 998px; */
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+}
+
+.banner-content p {
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 24px 73px;
+}
+
+.button-contact {
+    border: 0;
+    outline: 0;
+    padding: 21px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    background-color: #0D1321;
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-bottom: 44px;
+}
+
+/* banner styles end */
+
+/* main styles start  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* main styles end */
+
+/* web development container styles start */
+.web-dev-container {
+    height: 1100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.web-dev-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin: 0 100px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.web-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 23px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.web-dev-first-content {
+    display: flex;
+    margin-top: 48px;
+    width: 850px;
+    height: 240px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.web-dev-description{
+    border-radius: 16px;
+    background-color: #FDFDFD;
+}
+.web-dev-description > h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    width: 70%;
+    margin-bottom: 19px;
+    margin-left: 20px;
+}
+
+.web-dev-description>p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-left: 20px;
+}
+/* web development container styles end */
+
+/* shared sytles start */
+
+.btn-dev {
+    border: 1px solid;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    margin-top: 44px;
+    margin-left: 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* shared sytles end */
