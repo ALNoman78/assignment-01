@@ -159,12 +159,16 @@ main {
     height: 240px;
     margin: 0 auto;
     margin-bottom: 60px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
-.web-dev-description{
+
+.web-dev-description {
     border-radius: 16px;
     background-color: #FDFDFD;
 }
-.web-dev-description > h3 {
+
+.web-dev-description>h3 {
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 24px;
@@ -185,6 +189,7 @@ main {
     text-align: left;
     margin-left: 20px;
 }
+
 /* web development container styles end */
 
 /* shared sytles start */
@@ -206,4 +211,131 @@ main {
     cursor: pointer;
 }
 
+.text-align {
+    text-align: center;
+}
+
+.skill-btn {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
 /* shared sytles end */
+
+/* my inspiration styles start */
+.my-inspiration {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 186px;
+    margin-bottom: 180px;
+}
+
+.isnpiration-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.inspiration-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 80px;
+}
+
+.main-template {
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+/* my inspiration styles ens */
+
+/* skills styles start */
+.skills {
+    width: 1140px;
+    height: 1437px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-titile {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.skill-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.items-skill {
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.itme {
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.itme>img {
+    margin-bottom: 23px;
+}
+
+.item-title {
+    margin-bottom: 10px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+}
+
+.item-description {
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+}
+#first-item{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+#second-item{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+#third-item{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+/* skills styles end */
