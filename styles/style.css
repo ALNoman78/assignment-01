@@ -10,13 +10,11 @@
 nav {
     display: flex;
     justify-content: space-between;
-    font-family: Azeret Mono;
     margin: 50px 150px;
 }
 
 .logo {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 28px;
     font-weight: 800;
     line-height: 33px;
@@ -36,10 +34,10 @@ nav ul li {
     padding: 17px 24px;
     background-color: #fff;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
+    cursor: pointer;
 }
 
 /* navigation bar styles end */
@@ -68,9 +66,7 @@ nav ul li {
 }
 
 .banner-content>h3 {
-    /* width: 998px; */
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 48px;
     font-weight: 800;
     line-height: 68px;
@@ -80,7 +76,6 @@ nav ul li {
 .banner-content p {
     margin-top: 24px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -92,7 +87,6 @@ nav ul li {
     text-decoration: none;
     padding: 21px 24px;
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
@@ -115,7 +109,7 @@ main {
 
 /* web development container styles start */
 .web-dev-container {
-    height: 1100px;
+    height: 1200px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     display: flex;
@@ -128,7 +122,6 @@ main {
 
 .web-dev-title {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
@@ -147,7 +140,7 @@ main {
     line-height: 26px;
     margin-top: 23px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .web-dev-first-content {
@@ -164,6 +157,7 @@ main {
 .web-dev-description {
     border-radius: 16px;
     background-color: #FDFDFD;
+    margin: 10px;
 }
 
 .web-dev-description>h3 {
@@ -249,7 +243,6 @@ main {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
     margin-bottom: 80px;
@@ -301,6 +294,7 @@ main {
 .itme {
     padding: 40px;
     border-radius: 16px;
+    width: 360px;
 }
 
 .itme>img {
@@ -405,11 +399,14 @@ main {
     justify-content: center;
     height: 314px; 
     background-image: url("../assets/handshake.jpg");
-background-position: cover ;
     background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.45);
+    background-blend-mode: overlay;
+    background-position: center ;
     margin-top: 100px;
     border-radius: 16px;
     margin-bottom: 80px;
+    width: 100%;
 }
 .message-form-content{
     display: flex;
@@ -420,10 +417,10 @@ background-position: cover ;
     padding: 64px 50px;
 }
 .contect-form-description{
-    color: rgb(255, 255, 255);
+    color: rgb(255 , 255, 255, 0.7);
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 68px;
+    margin-bottom: 43px;
 }
 .contect-form-title{
     font-size: 32px;
