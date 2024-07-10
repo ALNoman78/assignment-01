@@ -403,14 +403,12 @@ main {
 .message-form{
     display: flex;
     justify-content: center;
-    height: 314px;  
-    background-image: url("/assets/handshake.jpg");
-    background-size: cover;
+    height: 314px; 
+    background-image: url("../assets/handshake.jpg");
+background-position: cover ;
     background-repeat: no-repeat;
     margin-top: 100px;
     border-radius: 16px;
-    background-color:  rgba(0, 0, 0, 0.273),rgba(0, 0, 0, 0.273),rgba(0, 0, 0, 0.273);
-    background-blend-mode: overlay;
     margin-bottom: 80px;
 }
 .message-form-content{
